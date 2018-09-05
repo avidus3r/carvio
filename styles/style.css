@@ -1,0 +1,11 @@
+html, body {
+    font-size: 12px;
+    font-family: sans-serif;
+    background: #f0f0f0;
+}
+
+header {
+    width: 100%;
+    background: #333;
+    padding: .5rem 1rem;
+}
