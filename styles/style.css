@@ -1,16 +1,16 @@
 html, body {
-    font-size: 12px;
-    font-family: sans-serif;
-    background: #f0f0f0;
+  font-size: 12px;
+  font-family: sans-serif;
+  background: #f0f0f0;
 }
 
 header {
-    width: 100%;
-    padding: .5rem 1rem;
+  width: 100%;
+  padding: .5rem 1rem;
 }
 
 .logo {
-
+  margin: 1rem 0 0 1rem;
 }
 
 h2 {
@@ -18,9 +18,17 @@ h2 {
 }
 
 .content {
-  max-width: 80%;
+  max-width: 90%;
   padding: 2rem;
   margin: 0 auto;
+}
+
+.content section {
+
+}
+
+.content section.active {
+
 }
 
 .btn {
@@ -28,11 +36,19 @@ h2 {
   color: #fff;
 }
 
-.btn:hover {
+.btn.next {
+  margin-right: 1.5rem;
+}
+
+.btn.prev {
+  margin-left: 1.5rem;
+}
+
+.btn:hover, .btn:active, .btn:focus {
   background: #ff3d82;
 }
 
 header .inner {
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
 }

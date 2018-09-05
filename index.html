@@ -1,35 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Carvio</title>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <meta charset="UTF-8">
+  <title>Carvio</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 
-    <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/main.js"></script>
 </head>
 <body>
-    <header><div class="inner"><img class="logo" src="img/logo_carvio_black.svg"></div></header>
-    <div class="content">
-      <div class="col s12 m7">
-        <h2 class="header">Get Started</h2>
-        <div class="card horizontal">
-          <div class="card-image">
+<header>
+  <div class="inner">
+    <img class="logo" src="img/logo_carvio_black.svg">
+  </div>
+</header>
+<div class="content">
+    <h2 class="header">Get Started</h2>
+    <div class="col s12 m7 carousel carousel-slider">
+      <div class="carousel-fixed-item left">
+        <a class="btn left prev" href="#">&lt; prev</a>
+      </div>
+      <div class="carousel-fixed-item right">
+        <a class="btn right next" href="#">next &gt;</a>
+      </div>
 
-          </div>
-          <div class="card-stacked">
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.</p>
-            </div>
-            <div class="card-action">
-              <a class="btn right" href="#">next &gt;</a>
-            </div>
+      <div class="card horizontal carousel-item">
+        <div class="card-stacked">
+          <div class="card-content">
+            <h4 class="header">Step 1</h4>
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
           </div>
         </div>
       </div>
+
+      <div class="card horizontal carousel-item">
+        <div class="card-stacked">
+          <div class="card-content">
+            <h4 class="header">Step 2</h4>
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card horizontal carousel-item">
+        <div class="card-stacked">
+          <div class="card-content">
+            <h4 class="header">Step 3</h4>
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card horizontal carousel-item">
+        <div class="card-stacked">
+          <div class="card-content">
+            <h4 class="header">Step 4</h4>
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
+
+
+</div>
 </body>
 </html>
