@@ -1,0 +1,54 @@
+#carvio{
+  background: #161616;
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  z-index: 90;
+}
+.carvio-container {
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 91;
+}
+.carvio-content {
+  width: 23%;
+  color: #fff;
+  padding: 1%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 92;
+}
+
+.carvio-content p, .carvio-content p span {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.page-container {
+  width: 75% !important;
+}
+
+.btn {
+  width: 72px;
+  background: #0082ff;
+  border: 2px solid #fff;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  left: 50%;
+  margin-left: -46px;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 100;
+}
