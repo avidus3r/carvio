@@ -4,3 +4,6 @@
 
 # source files/folders
 node_modules
+
+# cred files
+lib/sheets/*.json
