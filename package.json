@@ -1,0 +1,26 @@
+{
+  "name": "carvio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avidus3r/carvio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avidus3r/carvio/issues"
+  },
+  "homepage": "https://github.com/avidus3r/carvio#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "googleapis": "^27.0.0"
+  }
+}
