@@ -20,7 +20,7 @@
   "content_scripts": [{
     "js": ["content.js"],
     "css": ["styles.css"],
-    "matches": ["https://*.craigslist.org/*"]
+    "matches": ["https://*.craigslist.org/*", "http://carvio.com/*"]
   }],
   "browser_action": {
     "default_title": "Carvio"
