@@ -1,12 +1,96 @@
 html, body {
   font-size: 12px;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: #f0f0f0;
+  height: 100%;
 }
 
 header {
   width: 100%;
-  padding: .5rem 1rem;
+  padding: .5rem 1rem 3rem;
+  background: rgb(43,12,147);
+  background: linear-gradient(150deg, rgba(43,12,147,1) 10%, rgba(163,0,204,1) 45%, rgba(255,61,130,1) 89%, rgba(255,228,154,1) 100%);
+}
+
+header h1 {
+  color: #fff;
+  font-size: 4rem;
+  text-shadow: 0rem 0rem 0.25rem rgba(0,0,0,.75);
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem 0 0rem;
+}
+
+input[type="text"] {
+  padding: .5rem 0 !important;
+  color: #000 !important;
+  margin-bottom: 0 !important;
+  position: relative;
+  z-index: 1;
+}
+
+.autocomplete-content {
+  width: 100% !important;
+  left:0 !important;
+}
+
+#yearAutocomplete{
+  padding-left: 1rem !important;
+  border-bottom-left-radius: .25rem;
+  border-top-left-radius: .25rem;
+}
+
+#modelAutocomplete{
+  border-bottom-right-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+header button {
+  background: #b1b1b1;
+  background: linear-gradient(0deg, rgba(180,180,180,1) 10%, rgba(210,210,210,1) 90%);
+  color: #4a4a4a;
+  border: 1px outset;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: .75rem 1.25rem;
+  border-radius: .5rem;
+}
+.search {
+  margin: 0 auto;
+  float: none !important;
+  padding: 0 !important;
+  position: relative;
+}
+
+.search p {
+  position: absolute;
+  z-index: 0;
+  font-size: 1.25rem;
+  padding: 0 0 1rem 1rem;
+  color: rgba(0,0,0,.5);
+}
+
+.search::after{
+  clear: both;
+  display: block;
+  content: ' ';
+}
+
+.search .input-field{
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  position: unset !important;
+}
+
+.search .input-field:nth-of-type(1){
+  border-bottom-left-radius: .25rem;
+  border-top-left-radius: .25rem;
+}
+
+.search .input-field:nth-of-type(3){
+  border-bottom-right-radius: .25rem;
+  border-top-right-radius: .25rem;
 }
 
 .logo {
@@ -19,8 +103,14 @@ h2 {
 
 .content {
   max-width: 90%;
-  padding: 2rem;
+  padding: 0 2rem;
   margin: 0 auto;
+  height: 80%;
+}
+
+ul.dropdown-content {
+  height: 300px;
+  margin-top: 12px;
 }
 
 .content section {

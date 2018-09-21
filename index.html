@@ -6,65 +6,106 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans" rel="stylesheet">
   <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.js"></script>
 
-  <link rel="stylesheet" href="styles/style.css">
   <script src="scripts/main.js"></script>
+  <link rel="stylesheet" href="styles/style.css?9823222">
+
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#ff3d82">
+  <link rel="shortcut icon" href="/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Carvio">
+  <meta name="application-name" content="Carvio">
+  <meta name="msapplication-TileColor" content="#ff3d82">
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ff3d82">
+
 </head>
 <body>
 <header>
   <div class="inner">
-    <img class="logo" src="img/logo_carvio_black.svg">
+    <img class="logo" src="img/logo_carvio_white.svg">
+
+    <h1 class="center">SELL US YOUR CAR</h1>
+    <div class="col s7 center">
+      <div class="row">
+        <div class="col s4 search center">
+          <div class="col s2 input-field">
+            <input class="autocomplete" type="text" id="yearAutocomplete" />
+          </div>
+          <div class="col s3 input-field">
+            <input class="autocomplete" type="text" id="makeAutocomplete" />
+          </div>
+          <div class="col s7 input-field">
+            <input class="autocomplete" type="text" id="modelAutocomplete" />
+          </div>
+          <p id="searchPlaceholder">2014 Ford Explorer</p>
+        </div>
+      </div>
+      <div class="row">
+        <button class="center">GET MY OFFER</button>
+      </div>
+    </div>
   </div>
 </header>
 <div class="content">
-    <h2 class="header">Get Started</h2>
-    <div class="col s12 m7 carousel carousel-slider">
-      <div class="carousel-fixed-item left">
-        <a class="btn left prev" href="#">&lt; prev</a>
-      </div>
-      <div class="carousel-fixed-item right">
-        <a class="btn right next" href="#">next &gt;</a>
-      </div>
+    <h1 class="center">How It Works</h1>
+    <!--<div class="col s12 m7 carousel carousel-slider">-->
+      <!--&lt;!&ndash;<div class="carousel-fixed-item left">&ndash;&gt;-->
+        <!--&lt;!&ndash;<a class="btn left prev" href="#">&lt; prev</a>&ndash;&gt;-->
+      <!--&lt;!&ndash;</div>&ndash;&gt;-->
+      <!--&lt;!&ndash;<div class="carousel-fixed-item right">&ndash;&gt;-->
+        <!--&lt;!&ndash;<a class="btn right next" href="#">next &gt;</a>&ndash;&gt;-->
+      <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-      <div class="card horizontal carousel-item">
-        <div class="card-stacked">
-          <div class="card-content">
-            <h4 class="header">Step 1</h4>
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
-          </div>
-        </div>
-      </div>
+      <!--<div class="card horizontal carousel-item">-->
+        <!--<div class="card-stacked">-->
+          <!--<div class="card-content">-->
+            <!--<h4 class="header">Select a year</h4>-->
+            <!--<div class="input-field col s12">-->
+              <!--<select id="yearSelect">-->
+                <!--<option value="" disabled selected>Choose your option</option>-->
+              <!--</select>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
 
-      <div class="card horizontal carousel-item">
-        <div class="card-stacked">
-          <div class="card-content">
-            <h4 class="header">Step 2</h4>
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
-          </div>
-        </div>
-      </div>
+      <!--<div class="card horizontal carousel-item">-->
+        <!--<div class="card-stacked">-->
+          <!--<div class="card-content">-->
+            <!--<h4 class="header">Step 2</h4>-->
+            <!--<p>I am a very simple card. I am good at containing small bits of information.</p>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
 
-      <div class="card horizontal carousel-item">
-        <div class="card-stacked">
-          <div class="card-content">
-            <h4 class="header">Step 3</h4>
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
-          </div>
-        </div>
-      </div>
+      <!--<div class="card horizontal carousel-item">-->
+        <!--<div class="card-stacked">-->
+          <!--<div class="card-content">-->
+            <!--<h4 class="header">Step 3</h4>-->
+            <!--<p>I am a very simple card. I am good at containing small bits of information.</p>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
 
-      <div class="card horizontal carousel-item">
-        <div class="card-stacked">
-          <div class="card-content">
-            <h4 class="header">Step 4</h4>
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
-          </div>
-        </div>
-      </div>
+      <!--<div class="card horizontal carousel-item">-->
+        <!--<div class="card-stacked">-->
+          <!--<div class="card-content">-->
+            <!--<h4 class="header">Step 4</h4>-->
+            <!--<p>I am a very simple card. I am good at containing small bits of information.</p>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
 
-    </div>
+    <!--</div>-->
 
 
 </div>
